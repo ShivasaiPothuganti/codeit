@@ -1,0 +1,15 @@
+@import '../../utilities.scss';
+
+.languageoptions{
+    width: 90%;
+    &>select{
+        width: 100%;
+        height: 5vh;
+        background-color: #3C4048;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Poppins';
+        font-size: 16px;
+        text-align: center;
+    }
+}

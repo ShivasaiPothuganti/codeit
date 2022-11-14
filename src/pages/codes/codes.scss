@@ -1,0 +1,31 @@
+@import '../../utilities.scss';
+
+.codes{
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.codelink{
+    height: 5vh;
+    width: 50%;
+    &>a{
+        height: 100%;
+        width: 50vw;
+        color: white;
+        background-color: #5F9DF7;
+        text-decoration: none;
+        display: flex;
+        font-family: 'Popppins';
+        font-size: 25px;
+        align-items: center;
+        padding-left: 20px;
+        border-radius: 10px;
+    }
+
+}

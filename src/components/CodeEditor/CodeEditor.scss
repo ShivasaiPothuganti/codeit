@@ -1,0 +1,6 @@
+@import '../../utilities.scss';
+
+.codeeditor{
+    @include flex-veritcal;
+    gap: 5vh;
+}

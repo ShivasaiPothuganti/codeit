@@ -1,0 +1,32 @@
+.editor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.runbar{
+    width: 90%;
+    &>button{
+        height: 4vh;
+        width: 5vw;
+        font-family: 'Poppins';
+        background-color:#5F9DF7 ;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    &>button:hover{
+        transform: translateY(-3px);
+        transition: all .3s;
+    }
+    &>button:active{
+        transform: translateY(1px);
+    }
+}
